@@ -5,3 +5,12 @@
 .copy {
   font-family: "Roboto", sans-serif;
 }
+
+.linear-gradient-redorangeyellow {
+  background: linear-gradient(to right, red, orange, yellow);
+}
+
+.box-border {
+  outline: 2px;
+  outline-color: linear-gradient(to right, red, orange, yellow);
+}
