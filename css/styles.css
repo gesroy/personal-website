@@ -10,7 +10,46 @@
   background: linear-gradient(to right, red, orange, yellow);
 }
 
+.linear-gradient-orangeyellowgreen {
+  background: linear-gradient(orange, yellow, green);
+}
+
+.linear-gradient-yellowgreenblue {
+  background: linear-gradient(yellow, green, blue);
+}
+
+.linear-gradient-greenbluepurple {
+  background: linear-gradient(green, blue, purple);
+}
+
 .box-border {
   outline: 2px;
   outline-color: linear-gradient(to right, red, orange, yellow);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20vh;
+  background: white;
+}
+
+.box {
+  width: 80px;
+  height: 60px;
+  background: gray;
+  margin-right: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.move-left {
+  margin-right: auto;
+  width: 120px;
+  margin-left: 10px;
 }
