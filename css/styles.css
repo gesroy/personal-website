@@ -7,6 +7,13 @@
   color: rgba(7, 7, 7, 0.6);
 }
 
+.copy-link {
+  font-family: "Roboto", sans-serif;
+  color: rgba(7, 7, 7, 0.6);
+  text-decoration-line: underline;
+}
+
+/* 
 .linear-gradient-redorangeyellow {
   background: linear-gradient(to right, red, orange, yellow);
 }
@@ -22,6 +29,7 @@
 .linear-gradient-greenbluepurple {
   background: linear-gradient(green, blue, purple);
 }
+ */
 
 .fancy-border {
   border: 1px solid transparent;
@@ -34,7 +42,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 20vh;
+  height: 25vh;
   background: white;
 }
 
@@ -42,7 +50,6 @@
   width: 100px;
   height: 60px;
   margin-right: 10px;
-  text-decoration-line: underline;
 }
 
 .move-left {
