@@ -4,6 +4,7 @@
 
 .copy {
   font-family: "Roboto", sans-serif;
+  color: rgba(7, 7, 7, 0.6);
 }
 
 .linear-gradient-redorangeyellow {
@@ -22,13 +23,11 @@
   background: linear-gradient(green, blue, purple);
 }
 
-.box-border {
-  outline: 2px;
-  outline-color: linear-gradient(to right, red, orange, yellow);
-}
-
-* {
-  box-sizing: border-box;
+.fancy-border {
+  border: 1px solid transparent;
+  border-image: linear-gradient(to bottom, red, orange, yellow);
+  border-image-slice: 1;
+  border-radius: 10px;
 }
 
 .wrapper {
@@ -40,16 +39,15 @@
 }
 
 .box {
-  width: 80px;
+  width: 100px;
   height: 60px;
-  background: gray;
   margin-right: 10px;
-  color: white;
-  border-radius: 10px;
+  text-decoration-line: underline;
 }
 
 .move-left {
   margin-right: auto;
-  width: 120px;
+  width: 110px;
   margin-left: 10px;
+  padding-top: 2vh;
 }
