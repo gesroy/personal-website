@@ -1,10 +1,12 @@
-.light-shadow {
-  box-shadow: 21px 12px 23px 11px darkred;
-}
-
 .copy {
   font-family: "Roboto", sans-serif;
   color: rgba(7, 7, 7, 0.6);
+}
+
+.list-copy {
+  font-family: "Roboto", sans-serif;
+  color: rgba(7, 7, 7, 0.6);
+  font-size: 0.85em;
 }
 
 .copy-link {
@@ -28,6 +30,9 @@
 
 .linear-gradient-greenbluepurple {
   background: linear-gradient(green, blue, purple);
+}
+.light-shadow {
+  box-shadow: 21px 12px 23px 11px darkred;
 }
  */
 
