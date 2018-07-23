@@ -43,7 +43,7 @@
   border-radius: 10px;
 }
 
-.wrapper {
+.buttom-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -62,6 +62,13 @@
   width: 110px;
   margin-left: 10px;
   padding-top: 2vh;
+}
+
+.work-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
 }
 
 .bild-box-1:hover {
