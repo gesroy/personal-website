@@ -38,7 +38,7 @@
 
 .fancy-border {
   border: 1px solid transparent;
-  border-image: linear-gradient(to bottom, red, orange, yellow);
+  border-image: linear-gradient(to bottom, red, orange, yellow, purple);
   border-image-slice: 1;
   border-radius: 10px;
 }
@@ -62,4 +62,16 @@
   width: 110px;
   margin-left: 10px;
   padding-top: 2vh;
+}
+
+.bild-box-1:hover {
+  background-image: url("file:///Users/gescheroy/Documents/neuefische/personal-website/img/second.png");
+}
+
+.bild-box-1 {
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(gray, black),
+    url("file:///Users/gescheroy/Documents/neuefische/personal-website/img/second.png");
+  background-blend-mode: multiply;
 }
