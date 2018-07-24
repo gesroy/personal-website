@@ -1,3 +1,6 @@
+@import "base.scss";
+@import "header";
+
 .copy {
   font-family: "Roboto", sans-serif;
   color: rgba(7, 7, 7, 0.6);
@@ -73,13 +76,12 @@
 }
 
 .bild-box-1:hover {
-  background-image: url("file:///Users/gescheroy/Documents/neuefische/personal-website/img/second.png");
+  background-image: url("../img/second.png");
 }
 
 .bild-box-1 {
   max-width: 250px;
   height: 250px;
-  background-image: linear-gradient(gray, oldlace),
-    url("file:///Users/gescheroy/Documents/neuefische/personal-website/img/second.png");
+  background-image: linear-gradient(gray, oldlace), url("../img/second.png");
   background-blend-mode: multiply;
 }
