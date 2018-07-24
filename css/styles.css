@@ -69,6 +69,7 @@
   justify-content: center;
   align-items: center;
   background: white;
+  justify-content: space-evenly;
 }
 
 .bild-box-1:hover {
@@ -76,9 +77,9 @@
 }
 
 .bild-box-1 {
-  width: 250px;
+  max-width: 250px;
   height: 250px;
-  background-image: linear-gradient(gray, black),
+  background-image: linear-gradient(gray, oldlace),
     url("file:///Users/gescheroy/Documents/neuefische/personal-website/img/second.png");
   background-blend-mode: multiply;
 }
