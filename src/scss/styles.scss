@@ -1,21 +1,27 @@
-@import "base.scss";
-@import "header";
+@import 'base.scss';
+@import 'header';
 
 .copy {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(7, 7, 7, 0.6);
 }
 
 .list-copy {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(7, 7, 7, 0.6);
   font-size: 0.85em;
 }
 
 .copy-link {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(7, 7, 7, 0.6);
   text-decoration-line: underline;
+}
+
+.content-folded {
+  height: 50px;
+  xxdisplay: none;
+  overflow: hidden;
 }
 
 /* 
@@ -76,12 +82,12 @@
 }
 
 .bild-box-1:hover {
-  background-image: url("../img/second.png");
+  background-image: url('../img/second.png');
 }
 
 .bild-box-1 {
   max-width: 250px;
   height: 250px;
-  background-image: linear-gradient(gray, oldlace), url("../img/second.png");
+  background-image: linear-gradient(gray, oldlace), url('../img/second.png');
   background-blend-mode: multiply;
 }
